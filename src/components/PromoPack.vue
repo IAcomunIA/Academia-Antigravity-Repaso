@@ -75,9 +75,9 @@
               </div>
 
               <div class="space-y-4">
-                <button class="w-full md:w-auto px-16 py-6 rounded-2xl bg-gradient-to-r from-cyber-cyan to-soft-purple text-white font-heading font-bold text-xl shadow-[0_0_30px_rgba(0,240,255,0.4)] hover:shadow-[0_0_50px_rgba(139,92,246,0.5)] transform hover:-translate-y-1 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300">
+                <a href="https://ko-fi.com/s/a2f7374844" target="_blank" class="block w-full md:w-auto text-center px-16 py-6 rounded-2xl bg-gradient-to-r from-cyber-cyan to-soft-purple text-white font-heading font-bold text-xl shadow-[0_0_30px_rgba(0,240,255,0.4)] hover:shadow-[0_0_50px_rgba(139,92,246,0.5)] transform hover:-translate-y-1 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300">
                   Obtener Acceso Total
-                </button>
+                </a>
                 <p class="text-[10px] text-gray-dim font-medium uppercase tracking-[0.3em] px-2 italic">
                   Pago único, sin cuotas, para siempre. IVA incluido.
                 </p>

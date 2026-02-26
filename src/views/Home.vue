@@ -117,14 +117,17 @@ const benefits = [
           </p>
         </div>
 
-        <div class="flex flex-col items-center space-y-6">
-          <Button variant="primary" class="btn-gradient text-lg px-14 py-5 shadow-2xl" @click="router.push('/module-1')">
+        <div class="flex flex-col md:flex-row items-center justify-center gap-6">
+          <Button variant="primary" class="btn-gradient text-lg px-14 py-5 shadow-2xl w-full md:w-auto" @click="router.push('/module-1')">
             COMENZAR AVENTURA
           </Button>
-          <button @click="router.push('/dashboard')" class="text-cyber-cyan font-heading text-xs tracking-[0.2em] hover:text-slate-900 dark:hover:text-white transition-colors">
-            MI PANEL
-          </button>
+          <a href="https://ko-fi.com/s/a2f7374844" target="_blank" class="px-12 py-5 rounded-xl border-2 border-cyber-cyan/30 text-cyber-cyan font-heading font-bold text-lg hover:bg-cyber-cyan/10 hover:border-cyber-cyan transition-all shadow-lg w-full md:w-auto text-center">
+            OBTENER ACCESO TOTAL
+          </a>
         </div>
+        <button @click="router.push('/dashboard')" class="text-cyber-cyan/60 font-heading text-[10px] tracking-[0.4em] hover:text-white transition-colors uppercase">
+          Mi Panel de progreso
+        </button>
       </div>
     </header>
 
