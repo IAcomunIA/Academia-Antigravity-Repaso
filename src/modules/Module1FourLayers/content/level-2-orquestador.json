@@ -1,0 +1,36 @@
+{
+    "level_id": 2,
+    "title": "Orquestador: El Director de Orquesta",
+    "character": "TheCoordinator",
+    "intro_dialogue": [
+        "Saludos, Cadete. Soy el Coordinador del flujo.",
+        "Tener agentes es inútil si no sabes quién va primero.",
+        "El Orquestador toma las decisiones difíciles: ¿Ejecutamos en paralelo o esperamos a que el primer agente termine?"
+    ],
+    "theory": {
+        "sections": [
+            {
+                "title": "La Lógica del Orquestador",
+                "content": "El orquestador gestiona el flujo de trabajo, pasando la información de un agente a otro de forma eficiente."
+            }
+        ]
+    },
+    "exercise": {
+        "type": "drag_drop",
+        "instruction": "Ordena los pasos para una investigación: 1. Buscar info, 2. Resumir, 3. Formatear.",
+        "template": [
+            "Formatear",
+            "Buscar info",
+            "Resumir"
+        ],
+        "correct_order": [
+            "Buscar info",
+            "Resumir",
+            "Formatear"
+        ]
+    },
+    "rewards": {
+        "xp": 150,
+        "badge": "maestro-orquestador"
+    }
+}

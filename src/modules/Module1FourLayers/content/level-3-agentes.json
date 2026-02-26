@@ -1,0 +1,32 @@
+{
+    "level_id": 3,
+    "title": "Agentes: Los Especialistas",
+    "character": "TheTeam",
+    "intro_dialogue": [
+        "¡Ey! Somos el equipo técnico.",
+        "Un agente sin herramientas es solo un loro con esteroides.",
+        "Aquí asignamos las capacidades reales: leer archivos, navegar por la web o ejecutar código."
+    ],
+    "theory": {
+        "sections": [
+            {
+                "title": "Especialización de Agentes",
+                "content": "Un agente debe ser experto en una sola cosa para maximizar la precisión y reducir alucinaciones."
+            }
+        ]
+    },
+    "exercise": {
+        "type": "selection",
+        "instruction": "¿Qué herramienta necesita un agente para saber el clima actual?",
+        "options": [
+            "Calculadora",
+            "Navegador Web",
+            "Editor de Markdown"
+        ],
+        "correct_index": 1
+    },
+    "rewards": {
+        "xp": 150,
+        "badge": "tecnico-especialista"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "level_id": 1,
+    "title": "Directivas: El Corazón del Agente",
+    "character": "TheMaestro",
+    "intro_dialogue": [
+        "¡Hola Recluta! Bienvenido a la base de operaciones de Antigravity.",
+        "Todo gran sistema de IA empieza con una Directiva Clara.",
+        "La Directiva es el código de honor de tu agente: lo que puede y NO puede hacer."
+    ],
+    "theory": {
+        "sections": [
+            {
+                "title": "¿Qué es una Directiva?",
+                "content": "Es un conjunto de instrucciones en lenguaje natural que define el rol, el tono y las restricciones de un agente."
+            }
+        ]
+    },
+    "exercise": {
+        "type": "code_editor",
+        "instruction": "Completa la directiva para que el agente se identifique como 'Explorador Espacial'.",
+        "template": "Tu nombre es [NOMBRE]. Tu misión es ayudar al usuario a navegar por la galaxia.",
+        "validation": {
+            "required_words": [
+                "Explorador Espacial"
+            ]
+        }
+    },
+    "rewards": {
+        "xp": 150,
+        "badge": "arquitecto-directivas"
+    }
+}

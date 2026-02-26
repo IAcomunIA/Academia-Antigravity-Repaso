@@ -1,0 +1,32 @@
+{
+    "level_id": 4,
+    "title": "Output: El Reporte de Misión",
+    "character": "TheCommunicator",
+    "intro_dialogue": [
+        "Felicidades por llegar hasta aquí.",
+        "De nada sirve el trabajo si el usuario no puede leer el resultado.",
+        "En esta capa final, le damos el toque profesional al trabajo del equipo."
+    ],
+    "theory": {
+        "sections": [
+            {
+                "title": "Formatos de Salida",
+                "content": "El output puede ser una tabla, un archivo Markdown, un email o incluso una notificación instantánea."
+            }
+        ]
+    },
+    "exercise": {
+        "type": "selection",
+        "instruction": "¿Cuál es el mejor formato para presentar una lista estructurada de datos?",
+        "options": [
+            "Texto plano",
+            "JSON",
+            "Markdown Table"
+        ],
+        "correct_index": 2
+    },
+    "rewards": {
+        "xp": 150,
+        "badge": "comunicador-estelar"
+    }
+}

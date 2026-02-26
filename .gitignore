@@ -1,0 +1,11 @@
+node_modules/
+dist/
+assets/img/
+.env
+# Ignorar las carpetas de frames específicamente
+**/public/assets/img/frames-img/
+**/public/assets/img/frames-light/
+
+# O de forma más general por si acaso:
+**/frames-img/
+**/frames-light/

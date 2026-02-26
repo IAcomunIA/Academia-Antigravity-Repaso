@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#f8f9fa] dark:bg-deep-space text-slate-900 dark:text-white font-body antialiased transition-colors duration-500;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+
+  /* Botón Primario Base */
+  .btn-primary {
+    @apply bg-gradient-primary text-white font-semibold px-8 py-3 rounded-xl transition-all duration-300 hover:-translate-y-0.5;
+  }
+
+  .btn-primary {
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.5), inset 0 0 10px rgba(0, 240, 255, 0.2);
+  }
+
+  .btn-primary:hover {
+    box-shadow: 0 0 30px rgba(0, 240, 255, 0.6);
+  }
+
+  .btn-secondary {
+    @apply bg-soft-purple/20 border-2 border-soft-purple text-soft-purple font-semibold px-8 py-3 rounded-xl transition-all duration-300 hover:bg-soft-purple/30 hover:border-light-purple;
+  }
+
+  .btn-ghost {
+    @apply bg-transparent text-cyber-cyan font-medium px-6 py-3 transition-all duration-300 hover:bg-cyber-cyan/10;
+  }
+
+  .card-space {
+    @apply bg-white dark:bg-gradient-card border border-slate-200 dark:border-cyber-cyan/30 rounded-2xl p-6 backdrop-blur-md shadow-lg;
+  }
+
+  .card-level {
+    @apply bg-slate-50 dark:bg-deep-space/80 border-2 border-slate-200 dark:border-cyber-cyan/40 rounded-[20px] p-8 relative overflow-hidden;
+  }
+
+  .input-code {
+    @apply bg-dark-void/80 border-2 border-cyber-cyan/30 rounded-lg text-cyber-cyan font-code text-sm p-4 transition-all duration-300 focus:border-cyber-cyan focus:shadow-glow-cyan focus:outline-none;
+  }
+
+  .glass-panel {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl;
+  }
+
+  /* Botón de Gradiente Premium (Home) */
+  .btn-gradient {
+    @apply bg-gradient-to-r from-cyber-cyan to-indigo-glow text-white font-heading font-bold px-10 py-4 rounded-xl transition-all duration-300 hover:scale-105;
+  }
+
+  .btn-gradient {
+    box-shadow: 0 0 25px rgba(0, 240, 255, 0.4);
+  }
+
+  .btn-gradient:hover {
+    box-shadow: 0 0 40px rgba(0, 240, 255, 0.6);
+  }
+}
+
+/* Efectos Personalizados */
+.space-bg {
+  background: radial-gradient(circle at 50% 50%, #1a2a6c 0%, #000000 100%);
+}
+
+.text-gradient-cyan {
+  @apply bg-clip-text text-transparent bg-gradient-to-b from-slate-900 dark:from-white to-cyber-cyan;
+}
+
+.glow-text-cyan {
+  text-shadow: 0 0 15px rgba(0, 240, 255, 0.7);
+}
+
+.glow-text-purple {
+  text-shadow: 0 0 15px rgba(139, 92, 246, 0.7);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.4);
+}
+
+.card-course {
+  @apply bg-[#0D1127] border border-white/5 rounded-[24px] p-6 transition-all duration-300 hover:border-cyber-cyan/30;
+}
+
+/* Ocultar scrollbar pero permitir scroll */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
